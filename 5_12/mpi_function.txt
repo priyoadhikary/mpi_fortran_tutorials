@@ -1,0 +1,18 @@
+
+MPI_BARRIER
+MPI_BCAST : One process contributes to the result. All processes receive the result
+MPI_REDUCE: All processes contribute to the result. One process receives the result
+MPI_ALLREDUCE: All processes contribute to the result. All processes receive the result.
+
+
+ MPI_INIT
+ MPI_COMM_RANK
+ MPI_COMM_SIZE
+ MPI_FINALIZE
+ 
+ --------------
+  MPI_BEGIN
+  MPI_GETDIM
+  MPI_DISTRBT
+  
+  ---------------
